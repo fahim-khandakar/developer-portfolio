@@ -20,10 +20,11 @@
 
 .primary-btn {
     color: #FFF;
-    border-radius: 5px;
+    border-radius: 3px;
     background: #FD6E0A;
     padding: 10px;
     border: 0px;
+    width: 105px;
 }
 
 .primary-title {
@@ -35,13 +36,14 @@
 
 }
 
-.primary-p1{
+.primary-p1 {
+    color: #474747;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 5px;
 }
 
-.primary-p2{
+.primary-p2 {
     font-size: 20px;
     font-weight: 700;
 }
@@ -141,6 +143,7 @@ img {
 /* about section start  */
 
 .about {
+    background-color: #FFF8F3;
     margin: 130px auto 0px auto;
     display: flex;
     flex-direction: column;
@@ -149,7 +152,7 @@ img {
     height: 450px;
 }
 
-.about > p{
+.about>p {
     margin-top: 20px;
 }
 
@@ -160,4 +163,165 @@ img {
     justify-content: space-between;
     margin-top: 20px;
 }
+
+
+/* what i do section start  */
+
+.what-i-do {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.what-i-do-info {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    width: 800px;
+    height: 80px;
+    margin: auto;
+    text-align: center;
+}
+
+.what-i-do-details {
+    display: flex;
+    margin: 40px;
+}
+
+
+.skills {
+    margin: 50px auto 160px;
+    width: 190px;
+    height: 250px;
+    text-align: left;
+}
+
+.skills>img {
+    width: 38px;
+    height: 35px;
+    padding-bottom: 30px;
+}
+
+.skills>h2 {
+    padding-bottom: 15px;
+}
+
+.skills>p {
+    padding-bottom: 15px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 25px;
+}
+
+
+/* summary resume start here  */
+
+.summary-resume {
+    margin-bottom: 100px;
+}
+
+.summary-resume>button {
+    display: block;
+    margin: auto;
+}
+
+.all-resume-list {
+    display: flex;
+    margin-top: 80px;
+    padding: 0px 50px;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.resume-list {
+    width: 600px;
+}
+
+.resume-list>h2 {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+
+.resume-list>h2 {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+
+.resume>h3 {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.resume>h4 {
+    color: #757575;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.resume>p {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-bottom: 30px;
+}
+
+
+/* footer section start  */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 60px;
+    margin-bottom: 50px;
+}
+
+.link-info {
+    width: 500px;
+    padding-right: 50px;
+}
+
+.link-info>h1 {
+    padding-bottom: 20px;
+}
+
+.link-info>p {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.link>img {
+    width: 30px;
+    height: 30px;
+    padding: 0px 5px 0px 0px;
+}
+
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.contact-form > h1{
+    padding-bottom: 20px;
+}
+
+.contact-form > input[type="text"], input[type="email"], textarea{
+    width: 300px;
+    padding: 15px;
+    height: 15px;
+    margin-bottom: 30px;
+    border: 0px;
+}    
 
