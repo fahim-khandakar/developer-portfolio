@@ -1,7 +1,6 @@
 * {
     margin: 0px;
     padding: 0px;
-
 }
 
 /* shared class list  */
@@ -323,5 +322,87 @@ img {
     height: 15px;
     margin-bottom: 30px;
     border: 0px;
+}    
+
+
+
+@media screen and (max-width: 576px) {
+    .header-container{
+        height: 640px;
+    }
+
+    nav{
+        margin-left: 135px;
+    }
+
+
+    .nav-title{
+        padding-right: 200px;
+    }
+
+    .greeting-banner{
+        margin-left:130px;
+        height: 405px;
+    }
+
+    .header-section{
+        background-image: none;
+
+    }
+
+    .primary-btn{
+        margin: 5px;
+    }
+
+    img{
+        margin-left: 60px;
+        width: 360px;
+        height: 420px;
+        margin-top: 85px;
+    }
+
+    .about{
+        margin: 130px auto 0px 50px;
+    }
+
+     .what-i-do-details{
+        width: 263%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+
+     .what-i-do > h1{
+        width: 170px;
+        margin-left: 320px;
+     }
+
+     .skills {
+        width: 630px;
+        height: 270px;
+        margin: 0px;
+    }
+     .skills>img {
+        width: 38px;
+        height: 35px;
+        padding-bottom: 30px;
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    .summary-resume {
+        margin-bottom: 100px;
+        width: 278vw;
+        margin-top: 100px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        padding: 0px 0px;
+        width: 250vw;
+        margin: 50px 50px;
+    }
+
 }    
 
